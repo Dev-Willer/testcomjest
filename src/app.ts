@@ -5,11 +5,7 @@ import rotas from './rotas'
 
 const servidor = express()
 
-
-
 servidor.use(express.json())
-
-
 servidor.use(rotas)
 
 
