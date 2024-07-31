@@ -1,11 +1,10 @@
 import 'dotenv/config'
 import express from 'express'
+import rotas from './rotas'
 
 const servidor = express()
 
+servidor.use(rotas)
 
-servidor.get('/', (req, res) => {
-    return res.send('OK')
-});
 
 servidor.listen(process.env.PORT)
