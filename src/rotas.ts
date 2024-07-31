@@ -31,6 +31,6 @@ rotas.post('/cadastrarAula')
 // Excluir uma aula para um instrutor
 rotas.delete('/excluirAula')
 
-
+// Amanhã realizar a parte de aulas
 
 export default rotas
